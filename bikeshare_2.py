@@ -5,8 +5,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 #Required lists
 CITIES= ["chicago", "new york city", "washington"]
+<<<<<<< HEAD
 months = ["january", "february", "march", "april", "may", "june", "all"]
 days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "all"]
+=======
+MONTHS = ["january", "february", "march", "april", "may", "june", "all"]
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "all"]
+>>>>>>> refactoring
 def get_filters():
     """
         Asks user to specify a city, month, and day to analyze.
